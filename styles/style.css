@@ -1,3 +1,60 @@
+h1{
+    margin-left: 10em;
+}
+h2{
+    margin-left: 13.2em;
+}
 body{
+    text-align: left;
+    background-image: url(https://t-position.com/wp-content/fondos-web-gratis.jpg)
+}
+#enlinea, li{
+    display:inline;
+    list-style: none;
+    text-align: center;
+    padding-left: 10em;
     
 }
+#enlinea{
+    border: 4px double black;
+    align-content: center;
+    padding: 7px;
+    
+    
+    
+}
+.lista{
+    padding: 4em;
+    text-align: center;
+        
+}
+#texto{
+    text-align: center;
+    padding-left: 2em;
+    margin-left: 4em;
+    margin-right: 6em;
+    
+}
+#imagen{
+    float: right;
+    margin-right: 10em; 
+}
+#imagen2{
+    float: left;
+    margin-left: 10em;
+    
+}
+#menu{
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+#foto{
+    text-align: center;
+}
+a{
+    font-weight: bold;
+    color: royalblue;
+}
+
+
