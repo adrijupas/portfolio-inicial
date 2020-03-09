@@ -1,14 +1,22 @@
 <!doctype html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/script.js"></script>
+        <script src="https://kit.fontawesome.com/53e2984b1f.js" crossorigin="anonymous"></script>
+        <title>Contacto</title>
     </head>
     <body>
         <header>
             <div id="foto">
-                <img id="imagen" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg">
-                <img id="imagen2" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg">
+                <figure>
+                    <a href="index.html"><img id="imagen" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg"></a>
+                </figure>
+                <figure>
+                    <a href="index.html"><img id="imagen2" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg"></a>
+                </figure>
+                
                 <h1 > Adrián Julián Pastor</h1>
 
                 <h2>Diseñador de Paginas Web</h2>
@@ -30,29 +38,42 @@
             
             <form>
                 <div>
-                    <p>
+                    <div>
                         <label for="nombre">Nombre</label>
                         <input type="text" name="nombre" placeholder="Nombre">
-                    </p>
+                    </div>
                     
-                    <p>
+                    <div>
                         <label for="apellidos">Apellidos</label>
                         <input type="text" name="apellidos" placeholder="apellidos">
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label for="telefono">Teléfono</label>
                         <input type="text" name="telefono" placeholder="telefono">
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label for="e-mail">E-mail</label>
                         <input type="text" name="e-mail" placeholder="e-mail">
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label for="mensaje">Mensaje</label>
                         <textarea name="mensaje" placeholder="Escribe tu mensaje..."></textarea>
-                    </p>
-                    <input type="submit" value="enviar">
-                    <input type="reset" value="borrar">
+                    </div>
+                    <div>
+                        <input id="desempleado" type="radio" name="empleo" value="desempleado">
+                        <label for="desempleado" name="empleo">Desempleado</label>
+                    </div>
+                    <div>
+                        <input id="ocupado" type="radio" name="empleo" value="ocupado">
+                        <label for="ocupado" name="empleo">Ocupado</label>
+                    </div>
+                    <div>
+                        <input type="button" value="enviar">
+                        <input type="reset" value="borrar">
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450.03554974817473!2d-3.1453682884590246!3d40.64165167765235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8e60a62f8cbd3f32!2sAyla%20Dise%C3%B1o%20y%20Tecnolog%C3%ADa%2C%20S.L.!5e0!3m2!1ses!2ses!4v1583791917026!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
                     
                 </div>
             </form>
@@ -61,8 +82,23 @@
         </main>
         
         <footer>
-            &copy; copiright 2020
-        
+            <nav>
+                <div id="rrss">
+                    <a id="pie" href="https://codepen.io/adrijupas" target="_blank"><img src="images/codepen.png" width="150" height="100"></a>
+                
+                    <a href="https://github.com/adrijupas/" target="_blank"><img src="images/github.png" width="200" height="100"></a>
+                </div>
+            </nav>
+            
+            <div>
+                &copy; copyright 2020
+            </div>
+            
+            <div id="boton">
+            
+            <a href="#top"><i class="fas fa-angle-double-up fa-2x"></i></a>
+            
+            </div>
         </footer>
         
     </body>

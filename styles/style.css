@@ -8,7 +8,7 @@ body{
     text-align: left;
     background-image: url(https://t-position.com/wp-content/fondos-web-gratis.jpg)
 }
-#enlinea, li{
+#enlinea, .lista{
     display:inline;
     list-style: none;
     text-align: center;
@@ -37,7 +37,7 @@ body{
 }
 #imagen{
     float: right;
-    margin-right: 10em; 
+    margin-right: 10em;
 }
 #imagen2{
     float: left;
@@ -56,5 +56,34 @@ a{
     font-weight: bold;
     color: royalblue;
 }
+/*le damos una lista sin puntos en competencias digitales*/
+#menu2 li{
+        list-style:none;
+        display:inline;
+        list-style: none;
+        text-align: center;
+        padding-left: 10em;
+       }
 
-
+#centrar{
+    margin-left: -13em;
+}
+#menu3{
+    text-align: center;
+}
+#rrss{
+    text-align: center;
+    margin-top: 6em;
+}
+#pie{
+    padding-right: 6em;
+}
+#boton{
+    width: 100%;
+    text-align: right;
+    margin-left: -5em;
+    
+}
+#video{
+    margin-top: 5em;
+}

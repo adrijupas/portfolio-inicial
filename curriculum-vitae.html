@@ -1,22 +1,29 @@
 <!doctype html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/script.js"></script>
+        <script src="https://kit.fontawesome.com/53e2984b1f.js" crossorigin="anonymous"></script>
+        <title>Curriculum Vitae</title>
     </head>
     <body>
         <header>
             <div id="foto">
-                <img id="imagen" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg">
-                <img id="imagen2" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg">
+                <figure>
+                    <a href="index.html"><img id="imagen" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg"></a>
+                </figure>
+                <figure>
+                    <a href="index.html"><img id="imagen2" width="150" height="100" src="images/istockphoto-155158320-1024x1024.jpg"></a>
+                </figure>
+                
+                
                 <h1 > Adrián Julián Pastor</h1>
 
                 <h2>Diseñador de Paginas Web</h2>
 
             </div>
-        </header>
-        
-        <main>
+            
             <nav  id="menu">
                 <ul id="enlinea">
                     <li class="lista"><a href="index.html">Inicio </a></li>
@@ -25,21 +32,43 @@
                     <li class="lista"><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
+        </header>
+        
+        <main>
             
             <div>
                 <h3>Datos personales</h3>
+                
+                <dl>
                     <dt>Nombre</dt>
                     <dd>Adrián Julián Pastor</dd>
+                </dl>
+                
+                <dl>
                     <dt>Fecha de Nacimiento</dt>
                     <dd>31/03/1996</dd>
+                </dl>
+                
+                <dl>
                     <dt>Email</dt>
                     <dd>pruebademoviles96@gmail.com</dd>
+                </dl>
+                
+                <dl>
                     <dt>Teléfono</dt>
                     <dd>633 333 333</dd>
+                </dl>
+                
+                <dl>
                     <dt>Dirección</dt>
                     <dd>C/Madrid,10 3dcha</dd>
+                </dl>
+                
+                <dl>
                     <dt>Ciudad</dt>
                     <dd>Guadalajara,guadalajara</dd>
+                </dl>
+                
             </div>
             
             <div>
@@ -112,24 +141,46 @@
                 </table>
             </div>
             
-            <div>
+            <dl>
                 <dt>Idiomas</dt>
                 <dd>Nivel de Ingles B1</dd>
-                <br/>
-            </div>
-            
-            <div>
+            </dl>
+    
+            <dl>
                 <dt>Conocimientos Informaticos</dt>
                 <dd>Nivel Usuario Avanzado</dd>
-                <br/>
-                <dd></dd>
+            </dl>
+            <div>
+                <h3>Aptitudes</h3>
+                <h4>En esta lista puedes visualizar alguna de mis <span style="color: red">aptitudes</span></h4>
+                <ul>
+                    <li>Trabajo en Equipo</li>
+                    <li>Comunicación</li>
+                    <li>Productividad</li>
+                    <li>Puntualidad</li>
+                </ul>
             </div>
             
         </main>
         
         <footer>
-            &copy; copiright 2020
-        
+            <nav>
+                <div id="rrss">
+                    <a id="pie" href="https://codepen.io/adrijupas" target="_blank"><img src="images/codepen.png" width="150" height="100"></a>
+                
+                    <a href="https://github.com/adrijupas/" target="_blank"><img src="images/github.png" width="200" height="100"></a>
+                </div>
+            </nav>
+            <div>
+                &copy; copyright 2020
+            </div>
+            
+            <div id="boton">
+                
+                <a href="#top"><i class="fas fa-angle-double-up fa-2x"></i></a>
+                
+            </div>
+            
         </footer>
         
     </body>
