@@ -6,7 +6,9 @@ h2{
 }
 body{
     text-align: left;
-    background-image: url(https://t-position.com/wp-content/fondos-web-gratis.jpg)
+    background-image: url('https://t-position.com/wp-content/fondos-web-gratis.jpg');
+    max-width:1000px;
+    margin:0 auto;
 }
 #enlinea, .lista{
     display:inline;
@@ -87,3 +89,4 @@ a{
 #video{
     margin-top: 5em;
 }
+
